@@ -1282,6 +1282,10 @@ footer {
       height: auto;
       margin:0 auto;
       display: block;
+      text-align: left;
+    }
+    & .section-why--choose p{
+    text-align: left;
     }
 
     & .grid {
@@ -1291,6 +1295,9 @@ footer {
     & .section-why--choose {
       overflow: hidden;
     }
+    & p {
+      text-align: left;
+    }
 
     & .text-align--right .why-choose--div {
       align-items: flex-start;
@@ -1299,6 +1306,9 @@ footer {
     & .choose-left-div {
       text-align: left;
     }
+     & p{
+      text-align: left;
+     }
   }
 
   .section-contact--homepage .btn {
