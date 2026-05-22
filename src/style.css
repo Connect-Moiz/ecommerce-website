@@ -1188,9 +1188,39 @@ footer {
   }
 }
 
-@media (width <= 768px) {
+@media (max-width: 768px) {
+   
+   .section-navbar .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+   }
+
+   .navbar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0;
+   }
+
+   .navbar-brand img {
+    width: 140px;
+   }
+
+
+   
+
   .grid-two--cols {
     grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .section-hero img {
+    width: 80%;
+    margin: auto;
+    display: block;
   }
 
   .section-contact .grid-two--cols {
@@ -1202,7 +1232,7 @@ footer {
   }
 
   .section-hero .hero-heading {
-    font-size: 4.2rem;
+    font-size: 3rem;
   }
 
   .section-products #productContainer {
