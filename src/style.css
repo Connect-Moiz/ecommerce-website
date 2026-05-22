@@ -1273,13 +1273,19 @@ footer {
 
   .section-why--choose {
     & img {
-      width: 70%;
+      width: 100%;
+      max-width: 300px;
+      height: auto;
       margin:0 auto;
       display: block;
     }
 
     & .grid {
-      gap: 4rem;
+      gap: 2rem;
+    }
+
+    & .section-why--choose {
+      overflow: hidden;
     }
 
     & .text-align--right .why-choose--div {
