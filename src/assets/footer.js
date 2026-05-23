@@ -38,7 +38,7 @@ const footerHTML = `
   </div>
   <div class="f-design">
      <div class="f-design-txt">
-      <p>Design and Code by Connect-Moiz</p>
+        <p>Design For Modern Shopping Experience</p>
      </div>
   </div>
   </footer>`;
