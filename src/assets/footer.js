@@ -38,7 +38,7 @@ const footerHTML = `
   </div>
   <div class="f-design">
      <div class="f-design-txt">
-             <a href="https://github.com/Connect-Moiz/ecommerce-website">Visit Github</a>
+             <a href="https://github.com/Connect-Moiz/ecommerce-website" target="_blank">Visit Github</a>
      </div>
   </div>
   </footer>`;
