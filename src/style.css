@@ -304,7 +304,14 @@ textarea:focus-visible {
  .about-hero{
       width:100%;
       min-height:55vh;
-      background:linear-gradient(to right,#0f172a,#1e3a8a);
+       background-image: linear-gradient(
+    to top right,
+    #3d86fa,
+    #4484fb,
+    #679eff,
+    #b3d2ff,
+    #ebf3fe
+  );
       color:white;
       display:flex;
       align-items:center;
@@ -323,8 +330,6 @@ textarea:focus-visible {
       line-height:1.8;
       font-size:18px;
     }
-
-    /* ABOUT SECTION */
 
     .about-section{
       width:90%;
@@ -368,8 +373,6 @@ textarea:focus-visible {
       background:#0f172a;
     }
 
-    /* FEATURES */
-
     .features{
       width:90%;
       max-width:1200px;
@@ -401,8 +404,6 @@ textarea:focus-visible {
       color:#555;
       line-height:1.7;
     }
-
-    /* STATS */
 
     .stats{
       background:#0f172a;
