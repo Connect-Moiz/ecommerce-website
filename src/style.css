@@ -916,6 +916,10 @@ footer {
   text-align: center;
 }
 
+.f-design-txt a{
+  font-size: 0.9rem;
+}
+
 .f-design .f-design-txt {
   border-top: 1px solid var(--secondaryColor);
   padding: 1.6rem 0;
