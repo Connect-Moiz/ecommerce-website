@@ -19,7 +19,7 @@ price = price.replace("PKR", "");
 
 let existingProd = arrLocalStorageProduct.find((curProd) =>  curProd.id === id );
 
-if(existingProd && quantity > 1){
+if(existingProd && quantity > 0){
     quantity = Number(existingProd.quantity )+ Number (quantity);
    price =  Number(price * quantity);
    let updatedCart = {id, quantity, price};
