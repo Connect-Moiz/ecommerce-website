@@ -4,7 +4,7 @@ export const homeQuantityToggle = (event,id,stock) => {
 
 const productQuantity = currentCardElement.querySelector(".productQuantity");
 // console.log(productQuantity);
-let quantity = parseInt(productQuantity.getAttribute("data-quantity")) || 1;
+let quantity = parseInt(productQuantity.getAttribute("data-quantity")) || 0;
 
 if(event.target.className === "cartIncrement") {
 if(quantity < stock) {
